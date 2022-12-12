@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Hind Siliguri Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Hind Siliguri Regular"), 
+    url("./../fonts/hind-siliguri-v12-latin-regular.woff2") format("woff2"),
+    url("./../fonts/hind-siliguri-v12-latin-regular.woff") format("woff"),
+    url("./../fonts/hind-siliguri-v12-latin-regular.ttf") format("ttf"),
+    url("./../fonts/hind-siliguri-v12-latin-regular.eot") format("eot");
+}
+@font-face {
+    font-family: "Hind Siliguri Light";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Hind Siliguri Light"), 
+    url("./../fonts/hind-siliguri-v12-latin-300.woff2") format("woff2"),
+    url("./../fonts/hind-siliguri-v12-latin-300.woff") format("woff"),
+    url("./../fonts/hind-siliguri-v12-latin-300.ttf") format("ttf"),
+    url("./../fonts/hind-siliguri-v12-latin-300.eot") format("eot");
+}
+@font-face {
+    font-family: "Hind Siliguri Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Hind Siliguri Medium"), 
+    url("./../fonts/hind-siliguri-v12-latin-500.woff2") format("woff2"),
+    url("./../fonts/hind-siliguri-v12-latin-500.woff") format("woff"),
+    url("./../fonts/hind-siliguri-v12-latin-500.ttf") format("ttf"),
+    url("./../fonts/hind-siliguri-v12-latin-500.eot") format("eot");
+}
+@font-face {
+    font-family: "Hind Siliguri Semi-Bold";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Hind Siliguri Semi-Bold"), 
+    url("./../fonts/hind-siliguri-v12-latin-600.woff2") format("woff2"),
+    url("./../fonts/hind-siliguri-v12-latin-600.woff") format("woff"),
+    url("./../fonts/hind-siliguri-v12-latin-600.ttf") format("ttf"),
+    url("./../fonts/hind-siliguri-v12-latin-600.eot") format("eot");
+}
+.about {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #030D15;
+}
+a:hover {
+    transition: 0.2s;
+    color: #2aa4b8;
+}
+.about__body {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.about__header {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__logo {
+    display: flex;
+    align-items: center;
+}
+.about__nav {
+    display: flex;
+    justify-content: center;
+}
+.about__nav-link {
+    font-family: "Hind Siliguri Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    white-space: nowrap;
+}
+.about__nav-link:not(:last-child)::after {
+    content: url(./../images/Expanding_Button.svg);
+    width: 8px;
+    height: 4px;
+    margin-left: 8px;
+}
+.about__burgers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__burger-link {
+    margin-left: 35px;
+}
+.about__main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.about__background-image {
+    margin-top: 54px;
+    margin-right: -58px;
+    margin-left: 28px;
+    width: 643px;
+    height: 611px;
+    overflow: hidden;
+}
+.about__section {
+    display: flex;
+    flex-direction: column;
+}
+.about__subtitle {
+    margin-top: 129px;
+    font-family: "Hind Siliguri Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.145em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+    width: 166px;
+    white-space: nowrap;
+}
+.about__title {
+    margin-top: 3px;
+    width: 555px;
+    height: 220px;
+    font-family: 'Hind Siliguri Semi-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #030D15;
+}
+.about__title>p {
+    padding: 6px;
+    color: #247CC0;
+    margin: -6px;
+    background-color: #0af7eb;
+    display: inline-block;
+}
+.about__subtitle_bottom {
+    width: 515px;
+    height: 54px;
+    font-family: 'Hind Siliguri Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.6;
+    margin-top: 29px;
+}
+.info-about {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+.about__button {
+    background-color: #247CC0;
+    padding: 16px 35px;
+    font-family: 'Hind Siliguri Semi-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+.about__button>a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.about__button>a:hover {
+    transition: 0.2s;
+    color: #0af7eb;
+}
+.about__price {
+    font-family: "Hind Siliguri Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 31px;
+}
+.about__price_early {
+    font-family: "Hind Siliguri Light";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 18px;
+    color: #030D15;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+.about__footer-logo {
+    display: flex;
+    margin-top: 39px;
+    justify-content: space-around;
+}
+.about__footer-logo_link {}
